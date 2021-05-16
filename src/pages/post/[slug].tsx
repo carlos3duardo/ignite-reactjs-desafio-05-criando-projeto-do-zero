@@ -53,7 +53,7 @@ export default function Post({
   const router = useRouter();
 
   useEffect(() => {
-    const words = post.data.content.reduce((accumulator, current) => {
+    const words = post?.data.content.reduce((accumulator, current) => {
       const wordsHeading = current.heading.split(' ').length;
       const wordsText = current.body.reduce((bodyAccumulator, bodyCurrent) => {
         return bodyAccumulator + bodyCurrent.text.split(' ').length;
