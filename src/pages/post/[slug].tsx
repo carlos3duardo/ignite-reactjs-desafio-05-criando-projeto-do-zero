@@ -63,7 +63,7 @@ export default function Post({
     }, 0);
 
     setReadTime(Math.ceil(words / 200));
-  }, [post.data.content]);
+  }, [post?.data.content]);
 
   if (router.isFallback) {
     return <h1>Carregando...</h1>;
