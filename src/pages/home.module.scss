@@ -1,10 +1,10 @@
 .posts {
-  margin: 2rem 0 0 0;
+  margin: 2rem 0;
 
   .post {
     display: block;
     & + .post {
-      margin: 3rem 0 0 0
+      margin-top: 3rem;
     }
 
     .postTitle {
