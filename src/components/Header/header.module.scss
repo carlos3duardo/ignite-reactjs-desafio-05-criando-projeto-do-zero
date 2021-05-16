@@ -1,1 +1,16 @@
-// TODO
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .content {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
